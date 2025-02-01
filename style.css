@@ -1,0 +1,163 @@
+/* @font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+    font-weight:bold;
+} */
+
+body {
+    font-family: 'Montserrat';
+    margin: 0px;
+    background-color: black;
+    color: white;
+}
+
+.nav{
+    background-color: black;
+    opacity: .9;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 5.2rem;
+    padding: 0 1.25rem;
+    gap: 2rem;
+    z-index: 10;
+}
+
+
+.nav-ele .logo img{
+    border-radius: 1rem;
+}
+
+.nav-ele{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.nav-ele a{
+    color: orange;
+    text-decoration: none;
+}
+
+.img img{
+    height: 100%;
+    width: 100%;
+    opacity: .8;
+    object-fit: cover;
+}
+
+.content{
+    margin: 0 1rem 1rem 1rem;
+}
+p{
+    font-size: medium;
+}
+
+ul li{
+    list-style: circle;
+}
+
+.geovid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ .bor{
+    border-radius: .5rem;
+    margin-bottom: .7rem;
+    padding: 1rem;
+} 
+ video{
+    border-radius: 1rem;
+    height: 14.3rem;
+    margin: 1rem;
+}
+
+.hydra{
+    background-image: url(water.png);
+    background-size: cover;
+}
+
+.hyal{
+    display: flex;
+}
+
+.geo{
+    background-image: url(sand.png);
+    background-size: cover;
+    color: rgb(0, 0, 0);
+}
+
+.hov:hover{
+    text-decoration: underline;
+}
+
+
+.wind{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 500px;
+}
+
+.form{
+    border: 4px solid  orangered;
+    display: flex;
+    width: 50%;
+    padding: 2rem;
+    height: 20rem;
+    flex-direction: column;
+    background-image: url(wind.gif);
+    background-size: cover;
+    border-radius: 1rem;
+}
+input{
+    width:12rem;
+    height: 2rem;
+    border: 3px solid black ;
+    margin-bottom: 1rem;
+    border-radius: .5rem;
+    padding: .5rem;
+}
+.btn{
+    margin-top: 1.5rem;
+    background-color: black;
+    color: white;
+    width: 5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: none;
+}
+.btn:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 3, 3);
+    font-weight: 600;
+    border: 2px solid black ;
+}
+
+.footer{
+    height: 5rem;
+    background-color: rgb(19, 19, 19);
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    color: rgb(59, 59, 59);
+}
+.footer img{
+    height: 1.5rem;
+    background-color: inherit;
+    
+}
+
+@media(max-width:800px){
+    .nav{
+        display:none;
+    }
+    video{
+        display: none;
+    }
+}
