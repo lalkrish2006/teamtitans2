@@ -25,7 +25,6 @@ This website aims to **spread awareness and provide resources** around sustainab
 |-------------|----------------------------------|
 | HTML5       | Markup for structure             |
 | CSS3        | Styling and layout               |
-| JavaScript  | Interactivity (if applicable)    |
 | GitHub Pages| Hosting and deployment           |
 
 ---
